@@ -18,7 +18,7 @@ public enum Gravidade {
   }
 
   public static Gravidade calcularGravidade(BigDecimal excessoPercentual) {
-    /* Até 20% = LEVE *** Ccima de 20% até 50% = GRAVE *** Acima de 50% = GRAVISSIMA. */
+    /* Até 20% = LEVE *** Acima de 20% até 50% = GRAVE *** Acima de 50% = GRAVISSIMA. */
     if (excessoPercentual.compareTo(BigDecimal.valueOf(20)) <= 0) {
       return LEVE;
     } else if (excessoPercentual.compareTo(BigDecimal.valueOf(50)) <= 0) {

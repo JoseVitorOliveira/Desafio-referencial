@@ -11,4 +11,9 @@
 
 ## 2. Parte mais difícil
 
+Aplicação das regras de negócio na leitura do arquivo, java não é minha linguagem principal
+no momento.
+
 ## 3. O que faria diferente com mais tempo
+
+Melhores testes no backend e algo mais bonito no frontend
